@@ -1,5 +1,5 @@
 import configPromise from '@payload-config';
-import { getPayload } from 'payload';``
+import { getPayload } from 'payload';
 import { baseProcedure, createTRPCRouter } from "@/trpc/init";
 import { z } from 'zod';
 import { Media, Tenant } from '@/payload-types';

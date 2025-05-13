@@ -1,8 +1,5 @@
-import { initTRPC, TRPCError } from '@trpc/server';
+import { initTRPC } from '@trpc/server';
 import { cache } from 'react';
-import { headers as getHeaders } from 'next/headers';
-import { getPayload } from 'payload';
-import configPromise from '@payload-config';
 export const createTRPCContext = cache(async () => {
   /**
    * @see: https://trpc.io/docs/server/context
