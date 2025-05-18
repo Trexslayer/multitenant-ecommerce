@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Page = () => {
   return (
@@ -8,8 +8,10 @@ const Page = () => {
       <section className="bg-white p-4 rounded shadow mb-6">
         <h2 className="text-xl font-semibold mb-2">Get in Touch</h2>
         <p className="text-gray-700 mb-2">
-          We'd love to hear from you! Reach out with questions, feedback, or partnership opportunities.
+          We&apos;d love to hear from you! Reach out with questions, feedback,
+          or partnership opportunities.
         </p>
+
         <ul className="list-disc list-inside text-gray-600">
           <li>Email: support@yourmarketplace.com</li>
           <li>Phone: +1 (800) 123-4567</li>
@@ -22,7 +24,12 @@ const Page = () => {
         <h2 className="text-xl font-semibold mb-2">Send Us a Message</h2>
         <form className="space-y-4">
           <div>
-            <label className="block text-gray-700 font-medium mb-1" htmlFor="name">Name</label>
+            <label
+              className="block text-gray-700 font-medium mb-1"
+              htmlFor="name"
+            >
+              Name
+            </label>
             <input
               type="text"
               id="name"
@@ -31,7 +38,12 @@ const Page = () => {
             />
           </div>
           <div>
-            <label className="block text-gray-700 font-medium mb-1" htmlFor="email">Email</label>
+            <label
+              className="block text-gray-700 font-medium mb-1"
+              htmlFor="email"
+            >
+              Email
+            </label>
             <input
               type="email"
               id="email"
@@ -40,7 +52,12 @@ const Page = () => {
             />
           </div>
           <div>
-            <label className="block text-gray-700 font-medium mb-1" htmlFor="message">Message</label>
+            <label
+              className="block text-gray-700 font-medium mb-1"
+              htmlFor="message"
+            >
+              Message
+            </label>
             <textarea
               id="message"
               className="w-full border border-gray-300 rounded px-3 py-2"
